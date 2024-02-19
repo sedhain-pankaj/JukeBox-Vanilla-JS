@@ -1,0 +1,30 @@
+[
+  {
+    "SN": 1,
+    "fullname": "A Flock Of Seagulls - I Ran (So Far Away) (Video).mp4",
+    "shortname": "A Flock Of Seagulls - I Ran (So Far Away) (Video)",
+    "path": "music/Eighty/A Flock Of Seagulls - I Ran (So Far Away) (Video).mp4",
+    "img": "music/Eighty/img/A Flock Of Seagulls - I Ran (So Far Away) (Video).jpg"
+  },
+  {
+    "SN": 2,
+    "fullname": "Cold Chisel - Choir Girl [Official Video].mp4",
+    "shortname": "Cold Chisel - Choir Girl [Official Video]",
+    "path": "music/Eighty/Cold Chisel - Choir Girl [Official Video].mp4",
+    "img": "music/Eighty/img/Cold Chisel - Choir Girl [Official Video].jpg"
+  },
+  {
+    "SN": 3,
+    "fullname": "Def Leppard - Pour some sugar on me (US version).mp4",
+    "shortname": "Def Leppard - Pour some sugar on me (US version)",
+    "path": "music/Eighty/Def Leppard - Pour some sugar on me (US version).mp4",
+    "img": "music/Eighty/img/Def Leppard - Pour some sugar on me (US version).jpg"
+  },
+  {
+    "SN": 4,
+    "fullname": "Michael Jackson - Thriller (Official Video - Shortened Version).mp4",
+    "shortname": "Michael Jackson - Thriller (Official Video - Shortened Version)",
+    "path": "music/Eighty/Michael Jackson - Thriller (Official Video - Shortened Version).mp4",
+    "img": "music/Eighty/img/Michael Jackson - Thriller (Official Video - Shortened Version).jpg"
+  }
+]

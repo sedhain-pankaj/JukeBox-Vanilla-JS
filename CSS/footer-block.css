@@ -1,0 +1,31 @@
+#footer-block {
+  position: absolute;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  inset: 95% 35% 0 20%;
+  display: grid;
+  place-content: center;
+}
+
+#footer-block span {
+  font-size: clamp(0.5vw, 1.2vw, 1.5vw);
+  font-weight: bold;
+  color: rgb(0, 77, 49);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: animate 5s infinite linear;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

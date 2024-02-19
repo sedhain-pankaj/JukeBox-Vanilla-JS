@@ -1,0 +1,133 @@
+#queue-block {
+  position: absolute;
+  margin: 0.5%;
+  inset: 16% 0 0 65%;
+}
+
+/* queue header */
+#queue-header {
+  position: absolute;
+  inset: 0 60% 92% 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#queue-header span {
+  font-size: clamp(1vw, 1.5vw, 2vw);
+  font-weight: bolder;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* clear queue button */
+#clear-queue {
+  position: absolute;
+  margin: 0.5%;
+  inset: 0 0 92% 40%;
+}
+#clear-button {
+  cursor: pointer;
+  font-size: clamp(1vw, 1.5vw, 2vw);
+  font-weight: bold;
+  color: #7e0000;
+  border: 0.1vw solid #315f53;
+  border-radius: 1vw;
+  background-color: rgba(168, 164, 164, 0.8);
+  width: 100%;
+  position: absolute;
+  inset: 0 0 0 0;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#clear-button:hover {
+  background-color: #7e0000;
+  color: #fff;
+  box-shadow: 3px 3px 10px #d3cccc;
+  transform: translateX(-1px);
+  font-weight: bolder;
+}
+#clear-button:active {
+  transform: translateX(1px);
+  box-shadow: 0px 0px 0px #d3cccc;
+}
+
+/* queued songs */
+#queue-items {
+  position: absolute;
+  margin: 0.5%;
+  border: 0.25vw solid #015433;
+  border-radius: 1vw;
+  inset: 8% 13% 0 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* queue scrollbar */
+#right-side-arrow {
+  position: absolute;
+  margin: 0.5%;
+  inset: 8% 0 0 87%;
+}
+.scroll_up_queue {
+  top: 0px;
+  bottom: 89%;
+}
+.scroll_down_queue {
+  top: 89%;
+  bottom: 0px;
+}
+
+/* input for password when clearing queue */
+/* #clear_queue_input {
+  width: 95%;
+  border-radius: 10px;
+  border: 1px solid #315f53;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+  cursor: block;
+} */
+
+/* Queue Image, Name and Button */
+#queue_img {
+  margin: 2%;
+}
+#queue_name {
+  font-size: clamp(0.5vw, 1vw, 5vw);
+  font-weight: bold;
+  color: #500059;
+  margin: 1% 2.5%;
+  border-bottom: 0.2vw solid rgb(67, 52, 52);
+}
+#queue_remove_button {
+  float: right;
+  margin: 1%;
+  width: 55%;
+  height: 100%;
+  border-radius: 1vw;
+  border: 0.1vw solid #a1a1a1;
+  color: #ff0000;
+  font-size: clamp(1vw, 1.8vw, 2vw);
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+#backspace {
+  font-size: clamp(1vw, 1.2vw, 2vw);
+}
+#queue_remove_button:hover {
+  background-color: #ff0000;
+  color: #fff;
+  box-shadow: 3px 3px 10px #d3cccc;
+  transform: translateX(-1px);
+  font-weight: bolder;
+}
+#queue_remove_button:active {
+  transform: translateX(1px);
+  box-shadow: 0px 0px 0px #d3cccc;
+}
